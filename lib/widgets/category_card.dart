@@ -47,7 +47,7 @@ class CategoryCard extends StatelessWidget {
                     textAlign: TextAlign.center,
                     style: Theme.of(context)
                         .textTheme
-                        .title
+                        .titleLarge
                         .copyWith(fontSize: 15),
                   )
                 ],

@@ -12,23 +12,34 @@ class BottomNavBar extends StatelessWidget {
     return Container(
       padding: EdgeInsets.symmetric(horizontal: 40, vertical: 10),
       height: 80,
-      color: Colors.white,
+      color: Color.fromARGB(255, 219, 236, 223),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[
           BottomNavItem(
-            title: "Today",
-            svgScr: "assets/icons/calendar.svg",
+            title: "Search",
+            svgScr: "assets/icons/search.svg",
           ),
           BottomNavItem(
-            title: "All Exercises",
-            svgScr: "assets/icons/gym.svg",
+            title: "Chat",
+            svgScr: "assets/icons/menu.svg",
+          ),
+          BottomNavItem(
+            title: "Home",
+            svgScr: "assets/icons/menu.svg",
             isActive: true,
+          ),
+          BottomNavItem(
+            title: "Profile",
+            svgScr: "assets/icons/menu.svg",
           ),
           BottomNavItem(
             title: "Settings",
             svgScr: "assets/icons/Settings.svg",
           ),
+
+          
+
         ],
       ),
     );
